@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multitab</title>
+</head>
+<link rel="stylesheet" href="style/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="script/script.js"></script>
+<body>
+    <div id="wrap">
+        <header>
+            <h1>멀티탭구현</h1>
+            <hr>
+        </header>
+        <!-- herder -->
+
+        <main>
+            <div id="tab">
+                <button type="button" id="noticeTab" data-link="notice">공지사항</button>
+                <button type="button" id="galleryTab" data-link="gallery">갤러리</button>
+                <!-- data-* 속성은 HTML 요소에 사용자 정의 데이터를 저장하여 JavaScript를 사용하여 호출 -->
+            </div>
+            <!-- #tab -->
+
+            
+            <div id="notice" class="contents">
+                <table id="noticeTB">
+                <tbody>
+                    <tr>
+                        <td>제목입니다.</td>
+                        <td>작성일</td>
+                    </tr>
+                    <tr>
+                        <td>제목입니다.</td>
+                        <td>작성일</td>
+                    </tr>
+                    <tr>
+                        <td>제목입니다.</td>
+                        <td>작성일</td>
+                    </tr>
+                    <tr>
+                        <td>제목입니다.</td>
+                        <td>작성일</td>
+                    </tr>
+                     </tbody>
+                </table>
+                <!-- #noticeTB -->
+            </div>
+            <!-- #notice -->
+
+            <div id="gallery" class="contents">
+                <table id="galleryTB">
+                    <tbody>
+                        <tr>
+                            <td><img src="img/img1.jpg" alt="이미지"></td>
+                            <td><img src="img/img1.jpg" alt="이미지"></td>
+                            <td><img src="img/img1.jpg" alt="이미지"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- #galleryTB -->
+            </div>
+            <!-- #gallery -->
+           
+        </main>
+    </div>
+    <!-- div#wrap -->
+</body>
+</html>
